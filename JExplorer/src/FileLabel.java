@@ -32,15 +32,12 @@ public class FileLabel extends Label {
     	case "gif":
     	case "bmp":
     	case "png":
-    		//pane1.getChildren().add(new ExplorerLabel(2, listOfFiles[i].getName()));
     		break;
     	case "txt":
     	case "doc":
     	case "pdf":
-    		//pane1.getChildren().add(new ExplorerLabel(6, listOfFiles[i].getName()));
     		break;
     	default:
-    		//pane1.getChildren().add(new ExplorerLabel(10, listOfFiles[i].getName()));
     		break;
     	}
 		
