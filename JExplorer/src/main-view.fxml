@@ -5,27 +5,7 @@
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.Pane?>
+<?import javafx.scene.control.ScrollPane?>
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="JEController">
-   <children>
-      <ImageView fx:id="mainImgView" fitHeight="600.0" fitWidth="800.0" pickOnBounds="true" preserveRatio="false">
-         <image>
-            <Image url="@bg-main.png" />
-         </image>
-      </ImageView>
-      <TextField fx:id="mainTextField" prefWidth="810.0" />
-      <ScrollBar fx:id="mainVerticalBar" layoutX="796.0" layoutY="0.0" orientation="VERTICAL" prefHeight="596.0" prefWidth="14.0" />
-      <ScrollBar fx:id="mainHorizontalBar" layoutY="596.0" prefHeight="14.0" prefWidth="796.0" />
-      <Pane fx:id="aBar" layoutY="26.0" prefHeight="590.0" prefWidth="790.0" >
-         <children>
-            <ImageView fitHeight="590.0" fitWidth="810.0" pickOnBounds="true" preserveRatio="false">
-               <image>
-                  <Image url="@bg-main.png" />
-               </image>
-            </ImageView>
-            <ScrollBar fx:id="mainVerticalBar" layoutX="796.0" layoutY="0.0" orientation="VERTICAL" prefHeight="570.0" prefWidth="14.0" />
-            <ScrollBar fx:id="mainHorizontalBar" layoutY="570.0" prefHeight="14.0" prefWidth="810.0" />
-         </children>
-      </Pane>
-   </children>
-</Pane>
+<ScrollPane fx:id="primaryPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="JEController">
+</ScrollPane>

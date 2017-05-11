@@ -1,3 +1,19 @@
 #mainTextField {
 	-fx-display-caret: false;
 }
+
+.FileLabel:hover { 
+    -fx-fill: blue;   
+}
+
+.Label:hover { 
+    -fx-fill: blue;   
+}
+
+#FileLabel:hover { 
+    -fx-fill: blue;   
+}
+
+#Label:hover { 
+    -fx-fill: blue;   
+}

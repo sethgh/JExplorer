@@ -22,7 +22,7 @@ public class JExplorer extends Application {
     		
     	}
     	
-        primaryStage.setTitle("Hello World!");
+        primaryStage.setTitle("JExplorer");
         primaryStage.setResizable(false);
         primaryStage.show();
     }
